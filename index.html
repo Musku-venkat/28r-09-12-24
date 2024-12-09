@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Here are six HTML-based questions related to CSS combinators: -->
+
+        <!-- 1. Given the following HTML structure, write a CSS rule using the child combinator (>) to select all <li> elements that are direct children of the <ul> with the class menu. -->
+        <ul class="menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <br>
+
+        <!-- 2. Given this HTML code, write a CSS rule using the descendant combinator (space) to select all <span> elements inside a <div> with the class container. -->
+        <div class="container">
+            <p>This is a <span>text</span> with a <span>span</span> element.</p>
+        </div>
+        <br>
+
+        <!-- 3. Using the adjacent sibling combinator (+), write a CSS rule that selects the first <p> element that directly follows any <h2> element inside a <div> with the class article. -->
+        <div class="article">
+            <h2>Introduction</h2>
+            <p>This is the first paragraph.</p>
+            <p>This is the second paragraph.</p>
+        </div>
+        <br>
+
+        <!-- 4. Given the following HTML, write a CSS rule using the general sibling combinator (~) to select all <p> elements that are siblings of the <h1> inside a <div> with the class content. -->
+        <div class="content">
+            <h1>Title</h1>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <h2>Subtitle</h2>
+            <p>Paragraph 3</p>
+        </div>
+        <br>
+
+        <!-- 5. Given this HTML code, use the universal selector (*) combined with a class selector to apply a style to all elements within the .wrapper class. -->
+        <div class="wrapper">
+            <h1>Heading</h1>
+            <p>Some paragraph</p>
+            <a href="#">Link</a>
+        </div>
+        <br>
+
+        <!--6. In the following HTML, write a CSS rule that selects all <a> elements inside a <nav> tag and apply a style only to <a> elements that are immediately preceded by a <span> element. -->
+        <nav>
+            <span>Link 1</span>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <span>Link 2</span>
+            <a href="#">Contact</a>
+        </nav>
+    </body>
+</html>

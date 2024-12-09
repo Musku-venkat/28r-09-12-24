@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Answer-1 */ 
+.menu>li{
+    color: aliceblue;
+    background-color: blue;
+    padding-left: 20px;
+}
+
+
+/* Answer-2 */
+.container span{
+    color: aliceblue;
+    background-color: violet;
+}
+
+
+/* Answer-3 */
+.article>h2+p{
+    /* color: aliceblue; */
+    background-color: aqua;
+}
+
+/* Answer-4 */
+.content>h1~p{
+    background-color: yellow;
+}
+
+/* Answer-5 */
+.wrapper *{
+    color: white;
+    background-color: red;
+}
+
+/* Answer-6 */
+a{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+}
+
